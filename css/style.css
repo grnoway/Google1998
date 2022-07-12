@@ -1,0 +1,83 @@
+/* bir özelliği sayfadaki tüm kısımlara uygulamak için "*" kullanılır. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+    background-color: rgb(233, 224, 224);
+    text-align: center;
+    padding: 15px;
+}
+.input-text {
+    margin: 5px auto;
+    padding: 5px 150px;
+}
+
+.input-submit {
+    padding: 4px 10px;
+}
+
+/* tüm boxları içine alan boxa uygulanacak olan özellikler */
+
+.godbox {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box {
+    margin: 3px 2px;
+    height: 90px; 
+ 
+    padding: 5px 0 5px 0;
+
+}   
+
+.box1 {
+    background-color: rgb(121, 219, 187);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    width: 35%;
+}
+
+.box2 {
+        background-color: rgb(121, 219, 187);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    
+}
+
+.box3 {
+        background-color: rgb(121, 219, 187);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+
+}
+
+/* üçüncü boxdaki input-submit e uygulanan iç boşluk */
+.box3 div input {
+    padding: 3px 6px;
+}
